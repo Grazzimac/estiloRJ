@@ -6,12 +6,15 @@
 }
 
 header {
-    background-color: black;
+    background-color: rgb(37, 37, 138);
     text-align: center;
 
     font-size: 45px;
     color: white;
-}
+    padding: 2rem 0 2rem 0 ;
+    position: sticky;
+    top:0;
+} 
 
 main {
     display: flex;
@@ -19,19 +22,32 @@ main {
     margin-top: 10px;
     flex-direction: column;
     padding: 0 10% 0 10%;
+    min-height: 90vh;
+}
+
+main div {
+    text-align: center;
 }
 
 img {
     border-radius: 25px;
-    border: 10px solid blue;
+    border: 10px solid rgb(37, 37, 138);
+    width: 50%;
     margin-bottom: 15px;
+
+}
+
+img:hover{
+    transform: scale(150%) translateY(10%);
 }
 
 footer {
-    background-color: blue;
+    background-color: rgb(37, 37, 138);
     margin-top: 15px;
     color: white;
     text-align: center;
+    padding: 2rem 0 2rem 0 ;
+    font-size: 25px;
 }
 div {
 
